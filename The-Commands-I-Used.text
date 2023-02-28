@@ -1,0 +1,108 @@
+
+dsham@Diaa MINGW64 ~
+$ cd desktop/hyf-html-exercises/
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises
+$ git clone git@github.com:DiaShamma/favorite-cmd-commands.git
+Cloning into 'favorite-cmd-commands'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises
+$ ls
+DDDD/  Week1/  favorite-cmd-commands/  gitdemo/
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises
+$ cd favorite-cmd-commands/
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ ls
+README.md
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ dir
+README.md
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+
+
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ code .
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ git branch
+* main
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ git add README.md
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ git commit -m " I have written five commands that I prefer over the Read Me file"
+[main 33e6aac]  I have written five commands that I prefer over the Read Me file
+ 1 file changed, 23 insertions(+), 1 deletion(-)
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ status
+bash: status: command not found
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ git log
+commit 33e6aac0e4be1e04e73b96900d098997b4443c65 (HEAD -> main)
+Author: Diaa Shamma <d.shamma89@gmail.com>
+Date:   Tue Feb 28 03:03:02 2023 +0100
+
+     I have written five commands that I prefer over the Read Me file
+
+commit 10ef1fa45bbb501f366d71cf0d4298c2d525b053 (origin/main, origin/HEAD)
+Author: Diaa Shamma <125613718+DiaShamma@users.noreply.github.com>
+Date:   Tue Feb 28 02:26:11 2023 +0100
+
+    Initial commit
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ git push origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 553 bytes | 553.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:DiaShamma/favorite-cmd-commands.git
+   10ef1fa..33e6aac  main -> main
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ touch The-Commands-I-Used.text
+
+dsham@Diaa MINGW64 ~/desktop/hyf-html-exercises/favorite-cmd-commands (main)
+$ ls
+README.md  The-Commands-I-Used.text
